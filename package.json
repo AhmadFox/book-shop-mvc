@@ -1,0 +1,30 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "description": "NodeJs Express MVC with MongoDB project for learning",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmadFox/bookShop.git"
+  },
+  "author": "Ahmad gharaibeh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AhmadFox/bookShop/issues"
+  },
+  "homepage": "https://github.com/AhmadFox/bookShop#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
